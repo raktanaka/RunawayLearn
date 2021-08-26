@@ -1,6 +1,8 @@
-extends Node
+extends KinematicBody2D
 
 class_name Actor
+
+#var velocity := Vector2.ZERO
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -16,6 +18,5 @@ class_name Actor
 #func _process(delta):
 #	pass
 
-func _physics_process(delta):
+func _physics_process(delta: float):
 	pass
-	
